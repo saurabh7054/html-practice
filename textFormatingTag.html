@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8"
+    <title>Text Formatting</title>
+  </head>
+  <body>
+      <h1>Blockchain</h1>
+      <hr>
+      <p>From <b>Wikipedia</b>, the free encyclopedia</p>
+     <p style="text-indent: 20px;">
+        <i>For other uses, see Block chain (disambiguation).</i>
+     </p>
+      
+      <p>The <strong>blockchain</strong> is a distributed ledger with growing lists of records (blocks) that are securely <del>link</del> linked together via cryptographic hashes.<sup>[1][2][3][4]</sup> Each block contains a <mark>cryptographic hash of the previous block</mark>, a timestamp, and transaction data (generally represented as a Merkle tree, where data nodes are represented by leaves). Since each block contains information about the previous block, they effectively form a chain (compare linked list data structure), with each additional block linking to the ones before it. Consequently, blockchain transactions are resistant to alteration because, once recorded, the data in any given block cannot be changed retroactively without altering all subsequent blocks and obtaining network consensus to accept these changes.</p>
+      <p>Blockchains are typically managed by a peer-to-peer (P2P) computer network for use as a public distributed ledger, where nodes collectively adhere to a consensus algorithm protocol to add and validate new transaction blocks. Although blockchain records are not unalterable, since blockchain forks are possible, blockchains may be considered secure by design and exemplify a distributed computing system with high Byzantine fault tolerance.[5]</p>
+      <h2>History</h2>
+      <p>Cryptographer David Chaum first proposed a blockchain-like protocol in his <mark>1982</mark> dissertation "Computer Systems Established, Maintained, and Trusted by Mutually Suspicious Groups".<sup>[10][11]</sup> Further work on a cryptographically secured chain of blocks was described in <mark>1991</mark> by Stuart Haber and W. Scott Stornetta.<sup>[4][12]</sup> They wanted to implement a system wherein document timestamps could not be tampered with. In 1992, Haber, Stornetta, and Dave Bayer incorporated Merkle trees into the design, which improved its efficiency by allowing several document certificates to be collected into one block.<sup>[4][13]</sup> Under their company Surety, their document certificate hashes have been published in The New York Times every week since 1995.<sup>[14]</sup></p>
+      <p>The first decentralized blockchain was conceptualized by a person (or group of people) known as Satoshi Nakamoto in <mark>2008</mark>. Nakamoto improved the design in an important way using a Hashcash-like method to timestamp blocks without requiring them to be signed by a trusted party and introducing a difficulty parameter to stabilize the rate at which blocks are added to the chain.<sup>[4]</sup> The design was implemented the following year by Nakamoto as a core component of the cryptocurrency bitcoin, where it serves as the public ledger for all transactions on the network.<sup>[3]</sup></p><br>
+      <h2>Structure and design</h2>
+      <hr>
+      <p>A blockchain is a decentralized, distributed, and often public, digital ledger consisting of records called blocks that are used to record transactions across many computers so that any involved block cannot be altered retroactively, without the alteration of all subsequent blocks.<sup>[3][21]</sup> This allows the participants to verify and audit transactions independently and relatively inexpensively.<sup>[22]</sup> A blockchain database is managed autonomously using a peer-to-peer network and a distributed timestamping server. They are authenticated by mass collaboration powered by collective self-interests.<sup>[23]</sup> Such a design facilitates robust workflow where participants' uncertainty regarding data security is marginal. The use of a blockchain removes the characteristic of infinite reproducibility from a digital asset.</p>
+      <h3>Blocks</h3>
+      <p>Blocks hold batches of valid transactions that are hashed and encoded into a Merkle tree.<sup>[3]</sup> Each block includes the cryptographic hash of the prior block in the blockchain, linking the two. The linked blocks form a chain.<sup>[3]</sup> This iterative process confirms the integrity of the previous block, all the way back to the initial block, which is known as the genesis block (Block 0).<sup>[27]</sup><del>[27]</del> To assure the integrity of a block and the data contained in it, the block is usually digitally signed.<sup>[28]</sup><br>
+      <h4>Block time</h4>
+      <p>The block time is the average time it takes for the network to generate one extra block in the blockchain. By the time of block completion, the included data becomes verifiable. In cryptocurrency, this is practically when the transaction takes place, so a shorter block time means faster transactions. The block time for Ethereum is set to between 14 and 15 seconds, while for bitcoin it is on average 10 minutes.<sup>[33]</sup>Hard forks</p><br>
+      <h4>Hard forks</h4>
+      <p style = "text-indent: 20px;">
+        <i>This section is an excerpt from Fork (blockchain) § Hard fork.</i>[edit]
+      </p>
+      <p>A hard fork is a change to the blockchain protocol that is not backward compatible and requires all users to upgrade their software in order to continue participating in the network. In a hard fork, the network splits into two separate versions: one that follows the new rules and one that follows the old rules.</p>
+      
+  </body>
+</html>

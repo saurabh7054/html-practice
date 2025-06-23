@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <title>Registration Form</title>
+</head>
+<body>
+
+  <h2>Registration Form</h2>
+  <!-- Form starts here. When submitted, data will be sent to '/submit' using POST method -->
+  <form action="/submit" method="post">
+    
+    <label for="name">Name:</label>
+    <input type="text" id="name" name="name" required><br><br>
+
+    <label for="email">Email:</label>
+    <input type="email" id="email" name="email" required><br><br>
+
+    <label for="password">Password:</label>
+    <input type="password" id="password" name="password" required><br><br>
+
+    <label>Gender:</label>
+    <input type="radio" name="gender" value="male" checked> Male
+    <input type="radio" name="gender" value="female"> Female 
+    <input type="radio" name="gender" value="female"> Gay <br>
+
+    <label>Hobbies:</label>
+    <input type="checkbox" name="hobby" value="coding"> Coding
+    <input type="checkbox" name="hobby" value="music"> Music
+    <input type="checkbox" name="hobby" value="sports"> Sports <br><br>
+
+    <label for="city">City:</label>
+      <select id="city" name="city">
+         <option value="delhi">Delhi</option>
+         <option value="mumbai">Mumbai</option>
+         <option value="varanasi">Varanasi</option>
+         <option value="patna">Patna</option>         <!-- Bihar ka city -->
+         <option value="lucknow">Lucknow</option>
+         <option value="jaipur">Jaipur</option>
+         <option value="bangalore">Bangalore</option>
+         <option value="hyderabad">Hyderabad</option>
+         <option value="chennai">Chennai</option>
+         <option value="kolkata">Kolkata</option>
+      </select><br><br>
+
+
+      <input type="submit" value="Register">
+   </form>
+
+</body>
+</html>
