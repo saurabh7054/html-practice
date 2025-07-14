@@ -1,38 +1,24 @@
-# Gym Landing Page 🏋️‍♂️
+#
+# HTML Practice Repository 📝
 
-This is a **Modern Gym Landing Page** built with **HTML & CSS**.  
-It is a beginner-friendly project to practice layout, Flexbox, Grid, animations, and transitions.
-
----
-
-## **Features**
-
-- Responsive Navbar (Flexbox)
-- Hero Section with Background Image
-- Features Section (Grid Layout)
-- Pricing Plans with Hover Transitions
-- Footer with Social Icons
+This repository contains my **HTML practice codes and mini projects**.  
+It is for learning, revising, and improving my frontend web development skills.
 
 ---
 
-## **Tech Used**
+## Topics Covered
 
-- **HTML5**
-- **CSS3 (Flexbox, Grid, Animations, Transitions)**
-- Google Fonts
-- Font Awesome Icons
+- ✅ HTML Basic Structure  
+- ✅ Headings, Paragraphs, Lists  
+- ✅ Images and Links  
+- ✅ Tables  
+- ✅ Forms and Input Fields  
+- ✅ Semantic HTML Tags  
+- ✅ Audio and Video Embedding  
+- ✅ iframe Usage  
+- ✅ Basic Project Layouts
 
 ---
 
-## **Screenshots**
+## Folder Structure
 
-*(Add your website screenshots here if you want)*
-
----
-
-## **How to Run**
-
-1. Clone the repository:
-
-```bash
-git clone https://github.com/yourusername/your-repo-name.git
